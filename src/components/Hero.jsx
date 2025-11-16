@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 export default function Hero() {
     return (
         <header className="bg-brand-dark text-white overflow-hidden">
-            {/* NAVBAR */}
+
             <motion.div
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -30,9 +30,9 @@ export default function Hero() {
                 </nav>
             </motion.div>
 
-            {/* HERO SECTION */}
+
             <div className="container-max py-20 flex flex-col-reverse md:flex-row items-center gap-12">
-                {/* LEFT TEXT */}
+
                 <div className="md:w-1/2">
                     <motion.h2
                         initial={{ y: 40, opacity: 0 }}
@@ -64,10 +64,10 @@ export default function Hero() {
                     </motion.div>
                 </div>
 
-                {/* RIGHT DRONE IMAGE + ANIMATIONS */}
+
                 <div className="md:w-1/2 flex justify-center relative">
 
-                    {/* Floating Glow */}
+
                     <motion.div
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 0.4 }}
@@ -83,7 +83,7 @@ export default function Hero() {
                         className="w-full max-w-md bg-gradient-to-br from-[#111214] to-[#1b1d1f] rounded-3xl p-6 shadow-2xl border border-gray-800"
                     >
                         <motion.img
-                            src="/drone.png"
+                            src="/VyomGarud-Landing-page/drone.png"
                             alt="VyomGarud Drone"
                             initial={{ y: 20, opacity: 0 }}
                             animate={{ y: 0, opacity: 1 }}

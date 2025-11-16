@@ -6,7 +6,6 @@ export default function Footer() {
             <div className="container-max py-10">
                 <div className="flex flex-col md:flex-row justify-between items-start gap-10">
 
-                    {/* Brand */}
                     <div className="flex items-center gap-4">
                         <div className="w-12 h-12 bg-[#ff7b00] rounded-xl flex items-center justify-center text-black font-bold text-lg shadow-lg">
                             VG
@@ -17,7 +16,6 @@ export default function Footer() {
                         </div>
                     </div>
 
-                    {/* Footer Links */}
                     <div className="grid grid-cols-2 md:grid-cols-3 gap-8 text-gray-400 text-sm">
                         <div>
                             <h3 className="text-white font-semibold mb-3">Company</h3>
@@ -47,7 +45,6 @@ export default function Footer() {
                         </div>
                     </div>
 
-                    {/* Social Icons */}
                     <div className="flex gap-5 text-gray-400">
                         <a className="hover:text-[#ff7b00] transition" href="#">
                             <svg width="22" height="22" fill="currentColor" viewBox="0 0 24 24">
@@ -67,7 +64,6 @@ export default function Footer() {
                     </div>
                 </div>
 
-                {/* Bottom Line */}
                 <div className="border-t border-gray-800 mt-10 pt-5 text-center text-gray-500 text-sm">
                     © {new Date().getFullYear()} VyomGarud. All rights reserved.
                 </div>

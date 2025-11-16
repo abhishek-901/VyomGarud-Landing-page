@@ -52,3 +52,20 @@ Clean footer / contact section
 Fully responsive (Mobile / Tablet / Desktop)
 
 Smooth fade-in animations
+
+
+## 📸 Screenshots
+
+### 🟧 Hero Section
+![Hero Section](src/assets/screenshots/hero.png)
+
+### 🟧 Capabilities / Products
+![Products Section](src/assets/screenshots/products.png)
+
+### 🟧 Mobile View
+![Mobile View](src/assets/screenshots/mobile-view.png)
+
+
+## 🎥 Project Preview GIF
+![Preview](src/assets/screenshots/preview.gif)
+
