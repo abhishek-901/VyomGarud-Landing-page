@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/* global styles */
+:root {
+  --accent: #ff7b00;
+  --bg: #0f1112;
+  --charcoal: #222428;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  background: linear-gradient(180deg, #0b0c0d 0%, #111214 100%);
+  color: #fff;
+}
+
+/* small helper */
+.container-max {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
